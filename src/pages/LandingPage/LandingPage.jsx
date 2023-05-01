@@ -8,7 +8,6 @@ const LandingPage = () => {
     <>
       <Loader></Loader>
       <YogaIntroduce></YogaIntroduce>
-      {/* <Portofolio></Portofolio> */}
     </>
   );
 };

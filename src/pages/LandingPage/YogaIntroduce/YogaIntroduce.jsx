@@ -29,12 +29,6 @@ const YogaIntroduce = () => {
                 <strong>Address</strong> Klapagading RT02/03, Kecamatan Wangon,
                 Kabupaten Banyumas, Jawa Tengah, Indonesia
               </p>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
               <div className="yogabutton">
                 <button variant="success">Work History</button>
                 <button variant="success">Skills</button>
