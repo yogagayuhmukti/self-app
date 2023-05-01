@@ -13,7 +13,7 @@ const Loader = () => {
           <h1>Yoga Gayuh Mukti</h1>
         </div>
         <div className="elem">
-          <h1>Portofolio</h1>
+          <h1>Curriculum Vitae and Portofolio</h1>
         </div>
         <div className="elem">
           <h1>Let's hire me !</h1>

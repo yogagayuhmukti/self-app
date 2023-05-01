@@ -74,13 +74,19 @@
   background-color: white;
 }
 .yogaleft {
-  width: 70%;
+  width: 60%;
+  margin-left: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.yogabutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .yogaright {
-  width: 30%;
+  width: 40%;
 }
 .fotoyoga {
   width: 100%;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import { yogabackground, yogabackground2 } from "../../../assets";
+import { yogabackground, yogabackground2 } from "../../assets";
 
 const Portofolio = () => {
   return (

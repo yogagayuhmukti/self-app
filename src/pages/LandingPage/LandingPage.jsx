@@ -1,6 +1,5 @@
 import React from "react";
 import Loader from "./Loader/Loader";
-// import Portofolio from "./Portofolio/Portofolio";
 import YogaIntroduce from "./YogaIntroduce/YogaIntroduce";
 import "./LandingPage.css";
 
