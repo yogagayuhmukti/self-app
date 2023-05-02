@@ -92,11 +92,14 @@
   justify-content: center;
   align-items: center;
 }
+.yogaprifileintro {
+  padding-top: 12px;
+}
 .yogabutton {
   display: flex;
   flex-direction: column;
   margin: 0px, 24px;
-  margin-top: 80px;
+  margin-top: 48px;
 }
 .yogaright {
   width: 40%;
@@ -108,6 +111,18 @@
 .mobileintropic {
   display: none;
 }
+.yogalink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 12px;
+}
+.yogalinkpic {
+  width: 36px;
+  height: 36px;
+  filter: drop-shadow(10px 10px 5px grey);
+}
+
 /* yogaintroduce */
 @media only screen and (max-width: 768px) {
   .yogaIntroduce {
@@ -116,6 +131,11 @@
   .yogaleft {
     width: 90%;
     margin: 24px;
+    margin-top: 48px;
+  }
+  .yogaprofile {
+    margin-left: -24px;
+    margin-right: 24px;
   }
   .yogaright {
     display: none;
@@ -123,10 +143,11 @@
   .yogabutton {
     display: flex;
     width: 100%;
-    margin-top: 0px;
+    margin-top: 80px;
   }
   .mobileintro {
     display: flex;
+    margin-top: 12px;
   }
   .desktopintro {
     display: none;
