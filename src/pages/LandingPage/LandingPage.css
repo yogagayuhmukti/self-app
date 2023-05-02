@@ -9,8 +9,13 @@
   z-index: 999;
   width: 100%;
   height: 100%;
-  background-color: black;
   animation: anim2 2s cubic-bezier(0.19, 1, 0.22, 1) 9s both;
+}
+.yogaintro {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
 }
 #wrapperload {
   width: 500px;
@@ -100,6 +105,9 @@
   width: 100%;
   filter: drop-shadow(-20px 15px 18px grey);
 }
+.mobileintro {
+  display: none;
+}
 /* yogaintroduce */
 @media only screen and (max-width: 768px) {
   .yogaIntroduce {
@@ -107,8 +115,7 @@
   }
   .yogaleft {
     width: 90%;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: 24px;
   }
   .yogaright {
     display: none;
@@ -117,5 +124,11 @@
     display: flex;
     width: 100%;
     margin-top: 0px;
+  }
+  .mobileintro {
+    display: flex;
+  }
+  .desktopintro {
+    display: none;
   }
 }

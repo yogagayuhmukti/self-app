@@ -1,13 +1,13 @@
 import React from "react";
-// import { welcome } from "../../../assets";
+import { yogaintro } from "../../../assets";
 
 const Loader = () => {
   return (
     <div id="loader">
+      <img className="yogaintro" src={yogaintro} alt="yogaintro" />
       <div id="wrapperload">
         <div className="elem">
           <h1>Hi, Welcome to ...</h1>
-          {/* <img className="img-loader" src={welcome} alt="welcome" /> */}
         </div>
         <div className="elem">
           <h1>Yoga Gayuh Mukti</h1>

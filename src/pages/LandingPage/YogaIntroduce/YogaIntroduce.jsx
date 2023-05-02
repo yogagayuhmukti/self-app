@@ -20,7 +20,7 @@ const YogaIntroduce = () => {
                 <h1>Yoga Gayuh Mukti</h1>
                 <h4>Frontend Web Developer</h4>
               </div>
-              <p>
+              <p className="desktopintro">
                 I am an enthusiastic and committed programmer with a deep
                 passion for technology. I am seeking to join a company that
                 values ethics and maintains high standards. As a good
@@ -31,6 +31,12 @@ const YogaIntroduce = () => {
                 driving force in my life, and I am committed to pursuing my
                 passion with hard work, enthusiasm, and a commitment to
                 excellence.
+              </p>
+              <p className="mobileintro">
+                I'm a passionate programmer looking for a company with good
+                ethics and high standards. I'm a team player who communicates
+                well and strives for excellence. I'm adaptable, eager to learn,
+                and dedicated to programming and technology.
               </p>
               <p>
                 <strong>Address</strong> Klapagading RT02/03, Kecamatan Wangon,
