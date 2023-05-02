@@ -133,6 +133,9 @@
 
 /* yogaintroduce */
 @media only screen and (max-width: 768px) {
+  #wrapperload {
+    margin-top: 280px;
+  }
   .yogaIntroduce {
     flex-direction: column;
   }
