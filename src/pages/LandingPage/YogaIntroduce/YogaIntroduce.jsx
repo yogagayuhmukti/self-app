@@ -1,10 +1,17 @@
 import React from "react";
-import { yoga } from "../../../assets";
+import { yoga, yogabackground2 } from "../../../assets";
+import Button from "react-bootstrap/Button";
+// import Card from "react-bootstrap/Card";
 
 const YogaIntroduce = () => {
   return (
     <>
       <div className="yogaIntroduce">
+        <img
+          className="yogabackground"
+          src={yogabackground2}
+          alt="yogabackground2"
+        />
         <div className="yogaleft">
           <div>
             <div>
@@ -30,12 +37,9 @@ const YogaIntroduce = () => {
                 Kabupaten Banyumas, Jawa Tengah, Indonesia
               </p>
               <div className="yogabutton">
-                <button variant="success">Work History</button>
-                <button variant="success">Skills</button>
-                <button variant="success">Education</button>
-                <button variant="success">Language</button>
-                <button variant="success">Certification</button>
-                <button variant="success">PORTOFOLIO</button>
+                <Button variant="success">Curriculum Vitae</Button>
+                <br></br>
+                <Button variant="success">Portofolio</Button>
               </div>
             </div>
           </div>
