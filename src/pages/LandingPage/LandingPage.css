@@ -105,7 +105,7 @@
   width: 100%;
   filter: drop-shadow(-20px 15px 18px grey);
 }
-.mobileintro {
+.mobileintropic {
   display: none;
 }
 /* yogaintroduce */
@@ -130,5 +130,16 @@
   }
   .desktopintro {
     display: none;
+  }
+  .yogaprofile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mobileintropic {
+    display: flex;
+    width: 80px;
+    filter: drop-shadow(-15px 5px 10px grey);
   }
 }
