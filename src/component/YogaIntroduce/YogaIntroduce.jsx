@@ -6,7 +6,8 @@ import {
   facebook,
   instagram,
   whatsapp,
-} from "../../../assets";
+} from "../../assets";
+import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import ReactWhatsapp from "react-whatsapp";
 import Overlay from "react-bootstrap/Overlay";
@@ -59,9 +60,13 @@ const YogaIntroduce = () => {
               </p>
             </div>
             <div className="yogabutton">
-              <Button variant="success">Curriculum Vitae</Button>
+              <Link to="/curriculumvitae" className="yogabuttonlink">
+                <Button variant="success">Curriculum Vitae</Button>
+              </Link>
               <br></br>
-              <Button variant="success">Portofolio</Button>
+              <Link to="/portofolio" className="yogabuttonlink">
+                <Button variant="success">Portofolio</Button>
+              </Link>
             </div>
             <div className="yogalink">
               <Button

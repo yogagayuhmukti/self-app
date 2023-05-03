@@ -58,16 +58,6 @@
 }
 /* Loader */
 
-/* Portofolio */
-.backgroundparallax {
-  height: 100vh;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Portofolio */
 /* yogaintroduce */
 .yogaIntroduce {
   top: 0;
@@ -96,10 +86,12 @@
   padding-top: 12px;
 }
 .yogabutton {
-  display: flex;
-  flex-direction: column;
   margin: 0px, 24px;
   margin-top: 48px;
+}
+.yogabuttonlink {
+  display: flex;
+  flex-direction: column;
 }
 .yogaright {
   width: 40%;
@@ -154,6 +146,7 @@
   }
   .yogabutton {
     display: flex;
+    flex-direction: column;
     width: 100%;
     margin-top: 40px;
   }

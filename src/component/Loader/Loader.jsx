@@ -1,5 +1,5 @@
 import React from "react";
-import { yogaintro } from "../../../assets";
+import { yogaintro } from "../../assets";
 
 const Loader = () => {
   return (

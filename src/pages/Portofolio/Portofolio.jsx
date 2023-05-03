@@ -1,6 +1,8 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import { yogabackground, yogabackground2 } from "../../assets";
+import { yogabackground, yogabinaruser, yogabinaradmin } from "../../assets";
+import { Button } from "react-bootstrap";
+import "./Portofolio.css";
 
 const Portofolio = () => {
   return (
@@ -11,16 +13,32 @@ const Portofolio = () => {
         bgImageAlt="yogabackground"
         strength={200}
       >
-        <h1>Hi, I'm Yoga.</h1>
+        <div className="welcomeportofolio">Welcome to my Portofolio</div>
       </Parallax>
+      <div className="listjudul">
+        <div className="judul">Binar Cademy as User</div>
+        <a href="https://bcr-platinum-user.vercel.app/">
+          <Button variant="success"> See More Detail </Button>
+        </a>
+      </div>
       <Parallax
         className="backgroundparallax"
-        bgImage={yogabackground2}
-        bgImageAlt="yogabackground"
+        bgImage={yogabinaruser}
+        bgImageAlt="yogabinaruser"
         strength={200}
-      >
-        Content goes here. Parallax height grows with content height.
-      </Parallax>
+      ></Parallax>
+      <div className="listjudul">
+        <div className="judul">Binar Cademy as Admin</div>
+        <a href="https://bcr-platinum-admin.vercel.app/login">
+          <Button variant="success"> See More Detail </Button>
+        </a>
+      </div>
+      <Parallax
+        className="backgroundparallax"
+        bgImage={yogabinaradmin}
+        bgImageAlt="yogabinaradmin"
+        strength={200}
+      ></Parallax>
     </>
   );
 };

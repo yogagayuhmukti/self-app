@@ -7,6 +7,8 @@ import email from "./email.png";
 import facebook from "./facebook.png";
 import instagram from "./instagram.png";
 import whatsapp from "./whatsapp.png";
+import yogabinaruser from "./yogabinaruser.jpg";
+import yogabinaradmin from "./yogabinaradmin.jpg";
 
 export {
   welcome,
@@ -18,4 +20,6 @@ export {
   facebook,
   instagram,
   whatsapp,
+  yogabinaruser,
+  yogabinaradmin,
 };

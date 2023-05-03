@@ -1,6 +1,6 @@
 import React from "react";
-import Loader from "./Loader/Loader";
-import YogaIntroduce from "./YogaIntroduce/YogaIntroduce";
+import Loader from "../../component/Loader/Loader";
+import YogaIntroduce from "../../component/YogaIntroduce/YogaIntroduce";
 import "./LandingPage.css";
 
 const LandingPage = () => {
