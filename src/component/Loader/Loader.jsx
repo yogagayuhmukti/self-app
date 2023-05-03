@@ -5,7 +5,6 @@ import AudioPlayer from "../AudioPlayer/AudioPlayer";
 const Loader = () => {
   return (
     <div id="loader">
-      <AudioPlayer />
       <img className="yogaintro" src={yogaintro} alt="yogaintro" />
       <div id="wrapperload">
         <div className="elem">
@@ -21,6 +20,7 @@ const Loader = () => {
           <h1>Let's hire me !</h1>
         </div>
       </div>
+      <AudioPlayer />
     </div>
   );
 };

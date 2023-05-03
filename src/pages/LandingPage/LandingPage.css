@@ -1,10 +1,9 @@
 /* AudioPlayer */
 .AudioPlayer {
   display: flex;
-  width: 24px;
+  width: 100px;
   height: 24px;
-  margin-top: -40px;
-  margin-left: 35px;
+  margin-left: -50px;
 }
 /* AudioPlayer */
 /* Loader */
@@ -137,7 +136,8 @@
 @media only screen and (max-width: 768px) {
   /* AudioPlayer */
   .AudioPlayer {
-    margin-left: 480%;
+    margin-top: 300%;
+    margin-left: -200%;
   }
   /* AudioPlayer */
   #wrapperload {
