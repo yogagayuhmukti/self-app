@@ -1,6 +1,6 @@
 import React from "react";
 import ReactAudioPlayer from "react-audio-player";
-import beyondTheTime from "../../assets/beyondthetime.mp3";
+import beyondTheTime from "./beyondthetime.mp3";
 
 function AudioPlayer() {
   return (

@@ -12,6 +12,7 @@ import Button from "react-bootstrap/Button";
 import ReactWhatsapp from "react-whatsapp";
 import Overlay from "react-bootstrap/Overlay";
 import Tooltip from "react-bootstrap/Tooltip";
+import AudioPlayer from "../AudioPlayer/AudioPlayer";
 
 const YogaIntroduce = () => {
   const [show, setShow] = useState(false);
@@ -19,6 +20,7 @@ const YogaIntroduce = () => {
 
   return (
     <>
+      <AudioPlayer />
       <div className="yogaIntroduce">
         <img
           className="yogabackground"
