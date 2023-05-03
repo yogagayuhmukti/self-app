@@ -1,5 +1,5 @@
 /* Portofolio */
-.backgroundparallax {
+.backgroundportofolio {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -12,12 +12,14 @@
   font-size: 300%;
   margin-top: 200px;
 }
-
+.portocontainer {
+  height: 100%;
+}
 .listjudul {
-  padding: 50px;
+  padding: 20px;
   display: flex;
   background-color: grey;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .judul {
@@ -25,17 +27,27 @@
   color: white;
   font-size: 100%;
 }
+
 @media only screen and (max-width: 768px) {
-  .backgroundparallax {
-    height: 35vh;
-    display: flex;
+  .backgroundportofolio {
+    height: 60vh;
   }
   .welcomeportofolio {
     text-align: center;
     font-weight: 900;
     color: white;
     font-size: 100%;
-    margin-top: 80px;
+    margin-top: 50%;
+  }
+  .listjudul {
+    padding: 5px;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgportofolio {
+    width: 100%;
   }
 }
 /* Portofolio */
