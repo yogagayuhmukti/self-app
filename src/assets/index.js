@@ -17,6 +17,8 @@ import sertifikat_dicoding_belajar_dasar_pemrogtraman_web from "./sertifikat_dic
 import sertifikat_dicoding_belajar_membuat_augmented_reality_menggunakan_lens_studio from "./sertifikat_dicoding_belajar_membuat_augmented_reality_menggunakan_lens_studio.png";
 import sertifikat_dicoding_membuat_frontend_web_untuk_pemula from "./sertifikat_dicoding_membuat_frontend_web_untuk_pemula.png";
 import sertifikat_freecodecamp from "./sertifikat_freecodecamp.png";
+import Sertifikat_Bahasa_Inggris from "./Sertifikat_Bahasa_Inggris.png";
+import Sertifikat_Bahasa_Korea from "./Sertifikat_Bahasa_Korea.png";
 
 export {
   welcome,
@@ -38,4 +40,6 @@ export {
   sertifikat_dicoding_belajar_membuat_augmented_reality_menggunakan_lens_studio,
   sertifikat_dicoding_membuat_frontend_web_untuk_pemula,
   sertifikat_freecodecamp,
+  Sertifikat_Bahasa_Inggris,
+  Sertifikat_Bahasa_Korea,
 };
