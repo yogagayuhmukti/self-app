@@ -12,8 +12,8 @@ const CurriculumVitae = () => {
   return (
     <div className="CV">
       <div className="contentCV">
-        <Skill />
         <WorkStory />
+        <Skill />
         <Education />
         <Language />
         <Certification />
